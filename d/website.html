@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+
+            background-color: antiquewhite;
+        }
+
+
+        .head ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .head ul li {
+            margin: 0px 15%;
+            padding: 10px;
+        }
+
+        .imgi {
+            margin: 0px 15%;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar {
+            margin: 10px 15%;
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar ul li {
+            list-style: none;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        section {
+            background-color: antiquewhite;
+        }
+
+        section {
+            border: 2px solid green;
+        }
+
+        .container {
+            /* margin: 15px; */
+            margin: 0px 15%;
+            box-sizing: border-box;
+        }
+
+        .box {
+            /* border: 2px solid red; */
+            margin: 20px 0px;
+            padding: 12px 0px;
+            width: 100%;
+            display: flex;
+            gap: 50px;
+            justify-content: space-between;
+        }
+
+        form {
+            width: 100%;
+            /* border: 2px solid red; */
+
+        }
+
+        fieldset {
+            width: 90%;
+            margin-left: 25px;
+        }
+
+        .row {
+            font-size: 20px;
+            margin: 19px 0;
+        }
+
+        .one,
+        .two {
+            margin: 12px;
+        }
+
+        .one input {
+            margin: 10px;
+        }
+
+        .two input {
+            margin: 10px;
+        }
+
+
+
+        .top {
+            background-color: aqua;
+        }
+
+        .bar {
+            /* border: 2px solid red; */
+            margin: 0px 15%;
+        }
+
+        .mid {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+
+        }
+
+        .mid1 {
+            margin: 19px 0;
+            font-size: 20px;
+
+        }
+
+        .mid2 {
+            /* border: 2px solid red; */
+            width: 20%;
+            margin: 20px 30px;
+        }
+
+        .mid2 input {
+            margin: 15px 0px;
+            border-radius: 4px;
+            padding: 20px;
+
+
+        }
+
+        .video {
+            background-color: rgb(184, 182, 182);
+        }
+
+        .vid {
+            margin: 0px 15%;
+
+        }
+
+        .zero {
+            display: flex;
+            /* justify-content: center; */
+            gap: 65px;
+
+        }
+
+        .zero img {
+            margin: 20px 0;
+            width: 45%;
+            /* padding: 20px; */
+
+        }
+
+        .second {
+            width: 35%;
+            margin: 20px;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        .spike {
+            margin: 0px 15%;
+
+        }
+
+        .jerry {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 15px;
+        }
+
+        .t1 {
+            width: 29%;
+            /* border: 2px solid red */
+        }
+
+        .t1 img {
+            width: 100%;
+        }
+
+        .t1 div p {
+            font-size: large;
+        }
+
+        .foot {
+            display: flex;
+            justify-content: center;
+            gap: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <ul>
+                <li>Shopping Cart</li>
+                <li>Sign-In / Register</li>
+            </ul>
+        </div>
+    </header>
+    <div class="image">
+        <div class="imgi">
+
+            <div class="logo">
+                <img src="./files1676030625964-logo.png" alt="" srcset="">
+                <div class="num">
+                    <p style="font-size: 35px; padding-top: 15px;">512-219-8000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Yards Signs</a></li>
+                <li><a href="#">Banners</a></li>
+                <li><a href="#">Accesories</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Price</a></li>
+                <li><a href="#">Materials</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li style="border:2px solid red; background-color: orange;"><a style="color:white;" href="#">Custom
+                        Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section>
+        <div class="container">
+            <div class="box">
+                <div class="row">
+                    <h3>Big Headline</h3>
+                    <h4>Smaller Subhead Ahead</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque hic sint laborum soluta
+                        distinctio eos vero, vel atque natus rerum earum. Facere corporis explicabo alias tempore
+                        inventore ut, numquam accusamus.</p>
+                </div>
+                <form style="background-color; ">
+                    <fieldset style="border: 0;">
+                        <div class="one">
+                            <input type="text" name="Fname" placeholder="First Name:">
+                            <input type="text" name="Lname" placeholder="Last Name:">
+                        </div>
+                        <div class="two">
+                            <input type="email" name="Email" placeholder="Email:">
+                            <input type="number" name="Number" placeholder="Mobile Number">
+                        </div>
+                        <textarea style="margin-left: 15px;" cols="48" rows="5">Message </textarea>
+                        <input
+                            style="width: 50%;margin-left: 20%; margin-top: 12px; border-radius: 4px; background-color: orange;"
+                            type="button" value="Submit">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="top">
+        <div class="bar">
+
+            <div class="mid">
+                <div class="mid1">
+                    <h3>New Heading Begins Here</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim architecto ea fugiat temporibus
+                        eveniet fugit asperiores nobis! Reiciendis eius veritatis, repudiandae minus doloremque ipsum
+                        molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sequi nam
+                        consectetur! Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </div>
+                <div class="mid2">
+                    <input type="button" value="Design It Now">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="video">
+        <div class="vid">
+            <div class="zero">
+
+
+                <img style="width: %;" src="./files1676030611766-img.jpg" alt="Error" srcset="">
+
+                <div class="second">
+                    <h2>Good, Afternoon</h2>
+                    <h3>Lets Play the Video :)</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolore rerum, quisquam earum
+                        ipsa asperiores reprehenderit quo incidunt obcaecati dolores architecto sed, ipsam laudantium.
+                        Doloribus harum voluptatem beatae maxime impedit ipsum ipsam distinctio ab neque.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tom">
+        <div class="spike">
+            <div class="jerry">
+                <div class="t1">
+                    <img src="https://images.pexels.com/photos/4226881/pexels-photo-4226881.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt="" srcset="">
+                    <div>
+                        <p style="text-align:center ; ">Project 1</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit soluta facilis accusantium!
+                        </p>
+                    </div>
+                </div>
+                <div class="t1">
+                    <img src="https://images.pexels.com/photos/6159689/pexels-photo-6159689.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt="" srcset="">
+                    <div>
+
+                        <p style="text-align:center ; ">Project 2</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, debitis.</p>
+                    </div>
+                </div>
+                <div class="t1">
+                    <img src="https://images.pexels.com/photos/4226882/pexels-photo-4226882.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt="" srcset="">
+                    <div>
+
+                        <p style="text-align:center ; ">Project 3</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin:20px 45%;">
+        <div>
+            <input type="button" style="font-size:x-large ; background-color:orange; border-radius: 3px;"
+                value="Learn More">
+        </div>
+    </div>
+    </div>
+
+    <footer style="background-color: gray;">
+        <div class="foot">
+            <div class="f1">
+                <h3>Help</h3>
+                <p>Contact us</p>
+                <p>F.A.Q.</p>
+                <p>Sitemap</p>
+                <p>Pricing</p>
+                <p>Redeem Promo</p>
+                <br>
+                <h3>Account</h3>
+                <p>My Account</p>
+            </div>
+            <div class="f1">
+                <h3>Products</h3>
+                <p>Yard signs</p>
+                <p>Real Estate Signs</p>
+                <p>Vinyl Banners</p>
+                <p>Car Magnetics</p>
+                <p>Banner Stands</p>
+                <p>Accessories</p>
+                <p>Design Services</p>
+            </div>
+            <div class="f1">
+                <h3>Company</h3>
+                <p>Overview</p>
+                <p>Press room</p>
+                <p>Careers</p>
+                <p>Reviews</p>
+                <br>
+                <h3>Programs</h3>
+                <p>Affiliate</p>
+            </div>
+            <div class="f1">
+                <h3>Help</h3>
+                <p>Contact us</p>
+                <p>F.A.Q.</p>
+                <p>Sitemap</p>
+                <p>Pricing</p>
+                <p>Redeem Promo</p>
+                <br>
+                <h3>Account</h3>
+                <p>My Account</p>
+            </div>
+            <div class="f1">
+                <h3>Products</h3>
+                <p>Yard signs</p>
+                <p>Real Estate Signs</p>
+                <p>Vinyl Banners</p>
+                <p>Car Magnetics</p>
+                <p>Banner Stands</p>
+                <p>Accessories</p>
+                <p>Design Services</p>
+            </div>
+            <div class="f1">
+                <h3>Company</h3>
+                <p>Overview</p>
+                <p>Press room</p>
+                <p>Careers</p>
+                <p>Reviews</p>
+                <br>
+                <h3>Programs</h3>
+                <p>Affiliate</p>
+            </div>
+        </div>
+    </footer>
+    <footer style="background-color:rgb(59, 58, 58) ;">
+        <div style="text-align: center;">
+            <p style="color: white;">Copy Right</p>
+        </div>
+    </footer>
+</body>
+
+</html>
